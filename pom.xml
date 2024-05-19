@@ -16,7 +16,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>helloworld-webapp</finalName>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -24,5 +23,8 @@
             <version>3.2.2</version>
         </plugin>
     </plugins>
+  </build>
+  <build>
+    <finalName>helloworld-webapp</finalName>
   </build>
 </project>
